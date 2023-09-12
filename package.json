@@ -1,0 +1,19 @@
+{
+  "name": "segunda-entrega-backend",
+  "version": "1.0.0",
+  "description": "Segunda entrega del proyecto final. Backend. Comision 55525.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Franco Garay Benitez",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "mongoose": "^7.5.0",
+    "mongoose-paginate-v2": "^1.7.31"
+  }
+}
